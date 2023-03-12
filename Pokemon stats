@@ -1,0 +1,41 @@
+
+CREATE TABLE Pokemon (ID INTEGER PRIMARY KEY, name TEXT, number INTEGER, type TEXT);
+INSERT INTO Pokemon VALUES (1," Bulbasaur", 1," grass");
+INSERT INTO Pokemon VALUES (2, "Charmander", 2, "fire");
+INSERT INTO Pokemon VALUES (3, "Squirtle", 3, "Water");
+INSERT INTO Pokemon VALUEs (4, "Pikachu", 4, "Electric");
+INSERT INTO Pokemon VALUES (5, "Evee", 5, "normal");
+INSERT INTO Pokemon VALUES (6, "Ivysaur", 6, "grass");
+INSERT INTO Pokemon VALUES (7, "Venosaur", 7, "grass");
+INSERT INTO Pokemon VALUES (8, "charmeleon", 8, "fire");
+INSERT INTO Pokemon VALUES (9, "Charizard", 9, "fire");
+INSERT INTO Pokemon VALUES (10, "Wartortle", 10, "water");
+INSERT INTO Pokemon VALUES (11, "Blastoise", 11, "water");
+INSERT INTO Pokemon VALUES (12, "Caterpie", 12, "bug");
+INSERT INTO Pokemon VALUES (13, "Metapod", 13, "Bug");
+INSERT INTO Pokemon VALUES (14, "Butterfree", 14, "Air");
+INSERT INTO Pokemon VALUES (15, "Weedle", 15, "Poison");
+INSERT INTO Pokemon VALUES (16, "Beedrill", 16, "Poison");
+INSERT INTO Pokemon VALUES (17,"Pidgey", 18, "flying");
+INSERT INTO Pokemon VALUES (18, "Pidgeot", 18, "flying");
+INSERT INTO Pokemon VALUES (19, "Pidgeotto", 19, "Flying");
+INSERT INTO Pokemon VALUES (20, "Ratata", 20, "ground");
+INSERT INTO Pokemon VALUES (21, "Raticate", 21, "Ground");
+INSERT INTO Pokemon VALUES (22, "Spearow", 22, "Flying");
+INSERT INTO Pokemon VALUES (23, "Fearow", 23, "Flying");
+INSERT INTO Pokemon VALUES (24, "Nidoran", 24, "Fighting");
+INSERT INTO Pokemon VALUES (25, "Nidorino", 25, "Fighting");
+INSERT INTO Pokemon VALUES (26, "Nidoking", 26, "Fighting");
+INSERT INTO Pokemon VALUES (27, "Nidoran", 27, "Fighting");
+INSERT INTO Pokemon VALUES (28, "Nidorina", 28, "Fighting");
+INSERT INTO Pokemon VALUES (29, "Nidoqueen", 29, "Fighting");
+INSERT INTO Pokemon VALUES (30, "Clefairy", 30, "Fairy");
+INSERT INTO Pokemon VALUES (31, "Clefable", 31, "Fairy");
+INSERT INTO Pokemon VALUES (32, "Vulpix", 32, "fire");
+INSERT INTO Pokemon VALUES (33, "Ninetales",33, "fire");
+SELECT name, type, number FROM Pokemon WHERE type="fire";
+
+
+
+
+
